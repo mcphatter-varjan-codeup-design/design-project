@@ -35,3 +35,51 @@
     display: inline-block;
     margin: 10px 10px;
 }
+
+.badge-1 {
+    background-color: #e6563b;
+    color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 1px 1px;
+    align-content: center;
+
+}
+
+.badge-2 {
+    background-color:#eb9d3a;
+    color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 1px 1px;
+    align-content: center;
+}
+
+.badge-3 {
+    background-color: #7cb06c;
+    color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 1px 1px;
+    align-content: center;
+}
+
+.badge-4 {
+    background-color: #00aba9;
+    color: black;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 1px 1px;
+    align-content: center;
+    justify-content: center;
+}
+
+.image {
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 15px
+}
