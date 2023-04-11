@@ -41,12 +41,10 @@
     border: 5px solid white;
     border-radius: 50%;
     margin: 10px 10px;
-<<<<<<< HEAD
     padding: 20px 0;
     color: white;
     text-align: center;
     font-size: 15px;
-=======
 }
 
 .badge-1 {
@@ -95,5 +93,4 @@
     border-style: solid;
     border-color: #f0f0f0;
     border-width: 15px
->>>>>>> baeaaa2f3d028bb17966a423fc26d0cadff281a0
 }
