@@ -77,15 +77,15 @@
             <div class="col-6 circ host" style="font-family: Anton">HOST</div>
         </div>
     </div>
-    <hr class="d-none d-md-block d-lg-block d-xl-block">
+    <hr class="mx-auto d-none d-md-block d-lg-block d-xl-block" style="width: 75%">
 </div>
 <!--END OF CIRCLE CONTAINERS-->
 <!--Start of Feat Proj and Sidebar container-->
 <div class="container d-flex">
     <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8 col-md-12 col-sm-12">
             <!--Featured Projects Start-->
-            <div class="container  align-center">
+            <div class="container  align-center d-none d-md-block d-lg-block d-xl-block">
                 <div class="row d-block">
                     <p class="text-center align-center my-5" style="font-family: Abel">SELECTED WORK</p>
                 </div>
@@ -95,15 +95,14 @@
                     <div class="container ">
                         <div class="row justify-content-center">
                             <img class="col img-fluid" src="assets/images/apple-ipad.jpg">
-                            <div class="row">
-                                <div class="col text-nowrap" style="font-family: Abel"> FEATURED PROJECT</div>
-                                <div class="col text-end text-nowrap d-flex display: inline-block;">
-                                    <span class="badge rounded-pill badge-1" style="font-family: Anton Regular">D</span>
-                                    <span class="badge rounded-pill badge-2" style="font-family: Anton Regular">D</span>
-                                    <span class="badge rounded-pill badge-3" style="font-family: Anton Regular">S</span>
-                                    <span class="badge rounded-pill badge-4" style="font-family: Anton Regular">N</span>
-
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-nowrap" style="font-family: Abel"> FEATURED PROJECT</div>
+                            <div class="col text-end">
+                                <span class="badge rounded-pill badge-1">D</span>
+                                <span class="badge rounded-pill badge-2">D</span>
+                                <span class="badge rounded-pill badge-3">S</span>
+                                <span class="badge rounded-pill badge-4">N</span>
                             </div>
                         </div>
                     </div>
@@ -128,11 +127,12 @@
                 </div>
                 <!--END IMAGE 1&2 CONTAINER-->
                 <!--IMAGE 3&4 CONTAINER-->
-                <div class="container d-flex  justify-content-center">
+                <div class="container d-flex justify-content-center">
                     <!--            Image 3-->
                     <div class="container">
                         <div class="row justify-content-center">
-                            <img class=" img-fluid" src="assets/images/man.jpg"></div>
+                            <img class=" img-fluid max-width: 100%; height: auto" src="assets/images/man.jpg">
+                        </div>
                         <div class="row">
                             <div class="col text-nowrap" style="font-family: Abel"> FEATURED PROJECT</div>
                             <div class="col text-end">
@@ -147,12 +147,11 @@
 
                     <!--Image 4-->
                     <div class="container">
-                        <div class=" justify-content-center">
-                            <img class="col img-fluid" src="assets/images/security.jpg">
+                        <div class="row justify-content-center">
+                            <img class="img-fluid max-width: 100%; height: auto; " src="assets/images/security.jpg" >
                         </div>
-                        <!--    <div class="mx-auto" style="width: 625px;">-->
                         <div class="row">
-                            <p class="col text-nowrap" style="font-family: Abel"> FEATURED PROJECT</p>
+                            <div class="col text-nowrap" style="font-family: Abel"> FEATURED PROJECT</div>
                             <div class="col text-end">
                                 <span class="badge rounded-pill badge-1">D</span>
                                 <span class="badge rounded-pill badge-2">D</span>
@@ -164,11 +163,84 @@
                 </div>
                 <!--END IMAGE 3&4 CONTAINER-->
             </div>
+            <!--SMALL FEATURED PROJ -->
+            <div class="container align-center d-block d-sm-block d-md-none">
+                <div class="row d-block">
+                    <p class="text-center align-center my-5" style="font-family: Abel">SELECTED WORK</p>
+                </div>
+                <!--                Image 1-->
+                <div class="container ">
+                    <div class="row justify-content-center">
+                        <img class="col img-fluid" src="assets/images/apple-ipad.jpg">
+                    </div>
+                    <div class="row">
+                        <div class="col text-nowrap" style="font-family: Abel">FEATURED PROJECT</div>
+                        <div class="col text-end">
+                            <span class="badge rounded-pill badge-1">D</span>
+                            <span class="badge rounded-pill badge-2">D</span>
+                            <span class="badge rounded-pill badge-3">S</span>
+                            <span class="badge rounded-pill badge-4">N</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Image 2-->
+                <div class="container ">
+                    <div class="row justify-content-center">
+                        <img class="col img-fluid" src="assets/images/macbook.jpg">
+                    </div>
+                    <div class="row">
+                        <div class="col text-nowrap" style="font-family: Abel">FEATURED PROJECT</div>
+                        <div class="col text-end">
+                            <span class="badge rounded-pill badge-1">D</span>
+                            <span class="badge rounded-pill badge-2">D</span>
+                            <span class="badge rounded-pill badge-3">S</span>
+                            <span class="badge rounded-pill badge-4">N</span>
+                        </div>
+                    </div>
+                </div>
+                <!--END IMAGE 1&2 CONTAINER-->
+                <!--IMAGE 3&4 CONTAINER-->
+
+                <!--            Image 3-->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <img class=" img-fluid" src="assets/images/man.jpg">
+                    </div>
+                    <div class="row">
+                        <div class="col text-nowrap" style="font-family: Abel">FEATURED PROJECT</div>
+                        <div class="col text-end">
+                            <span class="badge rounded-pill badge-1">D</span>
+                            <span class="badge rounded-pill badge-2">D</span>
+                            <span class="badge rounded-pill badge-3">S</span>
+                            <span class="badge rounded-pill badge-4">N</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Image 4-->
+                <div class="container">
+                    <div class=" row justify-content-center">
+                        <img class="col img-fluid" src="assets/images/security.jpg">
+                    </div>
+                    <div class="row">
+                        <p class="col text-nowrap" style="font-family: Abel"> FEATURED PROJECT</p>
+                        <div class="col text-end">
+                            <span class="badge rounded-pill badge-1">D</span>
+                            <span class="badge rounded-pill badge-2">D</span>
+                            <span class="badge rounded-pill badge-3">S</span>
+                            <span class="badge rounded-pill badge-4">N</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--END OF FEATURED PROJECT-->
         <!--START SIDEBAR-->
         <div class="col-4">
-            <div class="container d-none d-lg-block ">
+            <div class="container d-none d-lg-block px-0 ">
                 <div class="row">
                     <p class="col text-center my-5" style="font-family: Abel">THE LAST</p>
 
