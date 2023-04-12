@@ -34,6 +34,9 @@
     border-radius: 50%;
     margin: 1px 1px;
     align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: .2em;
 }
 .badge-2 {
     background-color:#eb9d3a;
@@ -43,6 +46,9 @@
     border-radius: 50%;
     margin: 1px 1px;
     align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: .2em;
 }
 
 .badge-3 {
@@ -53,6 +59,9 @@
     border-radius: 50%;
     margin: 1px 1px;
     align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: .2em;
 }
 
 .badge-4 {
@@ -64,10 +73,17 @@
     margin: 1px 1px;
     align-content: center;
     justify-content: center;
+    text-align: center;
+    padding-top: .2em;
 }
 
 .img-fluid {
     border-style: solid;
     border-color: #e6e6e6;
-    border-width: 10px
+    border-width: 10px;
+    padding: 0;
+}
+
+span {
+    text-wrap: none;
 }
