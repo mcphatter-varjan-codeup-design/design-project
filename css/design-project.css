@@ -71,10 +71,6 @@
     padding-top: .2em;
     padding-right: 1em;
     padding-left: .4em;
-
-
-
-
 }
 
 .img-fluid {
@@ -85,6 +81,7 @@
     height: 203px;
     width: 296px;
 }
+
 span {
     text-wrap: none;
 }
